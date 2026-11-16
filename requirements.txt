@@ -1,0 +1,3 @@
+# 零第三方依赖，仅需 Python 3.9+ 标准库（urllib / hashlib / hmac / json）。
+# 可选：若改用腾讯云官方 SDK 实现 signature 模式，再安装 tencentcloud-sdk-python
+# tencentcloud-sdk-python>=3.0.1200
