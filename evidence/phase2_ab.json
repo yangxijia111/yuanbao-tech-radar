@@ -1,0 +1,220 @@
+{
+  "generated_at": "2026-11-12 16:46:43",
+  "source": "evidence/phase1_radar.json",
+  "extra_api_calls": 0,
+  "raw_items": 80,
+  "v1": {
+    "total": 80,
+    "top_n": 10,
+    "top_trusted": 0,
+    "top_trusted_share": 0.0,
+    "top_avg_authority": 0.4,
+    "top_avg_final": 0.6379
+  },
+  "v2": {
+    "total": 49,
+    "top_n": 10,
+    "top_trusted": 3,
+    "top_trusted_share": 0.3,
+    "top_avg_authority": 0.58,
+    "top_avg_final": 0.5121
+  },
+  "delta": {
+    "kept": -31,
+    "top_trusted_share_pp": 30.0,
+    "top_avg_authority": 0.18
+  },
+  "filter_hits": {
+    "free_hosting": 2,
+    "zero_query_hit": 4,
+    "domain_cap": 25
+  },
+  "removed_count": 31,
+  "removed_sample": [
+    {
+      "reason": "free_hosting",
+      "title": "Unity WebGL Performance: From 15fps to 60fps",
+      "host": "ascendant-continuum.web.app",
+      "query": "Unity WebGL 帧率 内存 优化 30 FPS"
+    },
+    {
+      "reason": "free_hosting",
+      "title": "Unity Mobile Optimization: WebGL to Android Performance",
+      "host": "ascendant-continuum.web.app",
+      "query": "Unity Android 性能优化 帧率 稳定 实践"
+    },
+    {
+      "reason": "zero_query_hit",
+      "title": "Modeling Affective Mechanisms in Relaxing Video Games: Sentiment and Topic Analysis of User Reviews",
+      "host": "proquest.com",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "reason": "zero_query_hit",
+      "title": "NICE國際研討會論文發表與交流 —簡易有機化合物卡牌遊戲分享 / 鐘建坪､鐘奕勳",
+      "host": "chemed.chemistry.org.tw",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "reason": "zero_query_hit",
+      "title": "Digital Game Enjoyment in Later Life",
+      "host": "tuni.fi",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "reason": "zero_query_hit",
+      "title": "The Playful Experiences (PLEX) framework as a guide for expert evaluation",
+      "host": "scholars.cityu.edu.hk",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "GameFlow: a model for evaluating player enjoyment in games",
+      "host": "doi.org",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "AI辅助Unity老项目迁移WebGL实战:两小时搬上浏览器",
+      "host": "blog.csdn.net",
+      "query": "Unity 版本 弃用 API 迁移 兼容性 说明"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity飞行跑酷开发实战:物理控制､关卡生成与性能优化",
+      "host": "blog.csdn.net",
+      "query": "Unity 跑酷游戏 无尽生成 碰撞判定 实现"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity老项目无感迁移到WebGL的实战指南",
+      "host": "hqwc.cn",
+      "query": "Unity 2022 LTS WebGL 平台 支持 变更"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity3D跑酷小游戏源码:从读懂到改造发布完整指南",
+      "host": "blog.csdn.net",
+      "query": "Unity 跑酷游戏 无尽生成 碰撞判定 实现"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity节奏游戏最小示例:音符判定与BPM同步实现",
+      "host": "blog.csdn.net",
+      "query": "Unity 音游 节奏判定 输入延迟 校准"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity老项目WebGL迁移实战:AI辅助两小时上线浏览器塔防",
+      "host": "blog.csdn.net",
+      "query": "Unity 2022 LTS WebGL 平台 支持 变更"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity老项目迁移WebGL实战:两小时搞定浏览器版塔防游戏",
+      "host": "blog.csdn.net",
+      "query": "Unity 2022 LTS WebGL 平台 支持 变更"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity微信小游戏开发实战:个人主体免版号上线全流程",
+      "host": "blog.csdn.net",
+      "query": "Unity 2022 LTS WebGL 平台 支持 变更"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity WebGL性能优化实战:从启动加载到渲染渲染的完整解决方案",
+      "host": "blog.csdn.net",
+      "query": "Unity WebGL 帧率 内存 优化 30 FPS"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "AI辅助迁移:两小时把老Unity塔防项目搬到WebGL浏览器运行",
+      "host": "blog.csdn.net",
+      "query": "Unity 2022 LTS WebGL 平台 支持 变更"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity WebGL性能优化实战:从加载到渲染的完整指南",
+      "host": "blog.csdn.net",
+      "query": "Unity WebGL 帧率 内存 优化 30 FPS"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity WebGL小游戏适配方案:架构演进与性能突破的工程实践",
+      "host": "blog.csdn.net",
+      "query": "Unity WebGL 帧率 内存 优化 30 FPS"
+    },
+    {
+      "reason": "domain_cap",
+      "title": "Unity WebGL多人在线游戏开发:Mirror网络框架实战避坑指南",
+      "host": "blog.csdn.net",
+      "query": "Unity WebGL 帧率 内存 优化 30 FPS"
+    }
+  ],
+  "near_miss_count": 6,
+  "near_miss": [
+    {
+      "title": "Classification of videogames for amblyopia treatment in perceptive and cognitive domains",
+      "host": "doi.org",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "title": "Factors directing individuals to computer games in the process of evaluating recreational activities",
+      "host": "doi.org",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "title": "Leisure and Problem Gaming Behaviors Among Children and Adolescents During School Closures Caused by COVID-19 in Hong Ko",
+      "host": "doi.org",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "title": "GameFlow: a model for evaluating player enjoyment in games",
+      "host": "doi.org",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "title": "EGameFlow: A Scale to Measure Learners' Enjoyment of E-Learning Games",
+      "host": "fachportal-paedagogik.de",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    },
+    {
+      "title": "EGameFlow: A Scale to Measure Learners' Enjoyment of E-Learning Games",
+      "host": "fachportal-paedagogik.de",
+      "query": "休闲游戏 评分 统计 指标 设计 学术"
+    }
+  ],
+  "rules": [
+    {
+      "key": "free_hosting",
+      "label": "免费托管域名",
+      "basis": "URL 命中免费托管后缀（.web.app 等）",
+      "why": "个人临时站点，缺乏可追溯的发布主体"
+    },
+    {
+      "key": "junk_keyword",
+      "label": "标题/摘要含垃圾特征",
+      "basis": "标题或摘要命中博彩 / 软文特征词",
+      "why": "与毕设技术主题无关的流量内容"
+    },
+    {
+      "key": "short_summary",
+      "label": "摘要过短",
+      "basis": "摘要短于 40 字",
+      "why": "信息量不足以判断相关性；本次实测摘要均在 719–803 字，预期 0 命中"
+    },
+    {
+      "key": "zero_query_hit",
+      "label": "查询词零命中（跨语种跑题）",
+      "basis": "查询词在标题 + 摘要中零命中，且域名不属于学术白名单",
+      "why": "跨语种跑题；学术文献设例外，避免误伤 Industry=acad 召回的英文论文"
+    },
+    {
+      "key": "domain_cap",
+      "label": "同域名限流（去冗余）",
+      "basis": "同一非权威域名只保留综合分最高的 3 条",
+      "why": "避免单一采集站霸榜；权威白名单域名不参与限流"
+    }
+  ]
+}
