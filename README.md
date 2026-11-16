@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Core dependencies](https://img.shields.io/badge/core%20deps-standard%20library-brightgreen)
-![License](https://img.shields.io/badge/license-not%20specified-lightgrey)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## 中文
 
@@ -120,7 +120,7 @@ python src/make_figures.py
 
 ### 许可证
 
-**当前未指定开源许可证**，仓库中的代码、证据与文章默认保留所有权利，请勿直接用于商业用途。建议采用 MIT License（宽松、适合参赛作品分享与复现），但需作者明确确认后才会添加 `LICENSE` 文件。
+本项目采用 [MIT License](LICENSE)。允许自由使用、复制、修改、合并、发布、分发、再许可和/或出售副本，条件是保留版权声明与许可声明。软件按「原样」提供，不作任何明示或暗示的保证。
 
 ### 贡献
 
@@ -255,7 +255,7 @@ That helper uses headless Chrome and is not part of the core pipeline.
 
 ### License
 
-**No open-source license is currently specified.** Code, evidence and articles are all rights reserved by default; please do not reuse them commercially. MIT License is suggested (permissive and suitable for a contest submission), but a `LICENSE` file will only be added after explicit author confirmation.
+This project is licensed under the [MIT License](LICENSE). Permission is granted to use, copy, modify, merge, publish, distribute, sublicense and/or sell copies, provided the copyright notice and permission notice are retained. The software is provided "as is", without warranty of any kind.
 
 ### Contributing
 
