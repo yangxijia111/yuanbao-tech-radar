@@ -1,0 +1,250 @@
+[
+  {
+    "label": "基线（仅 Query）",
+    "params": {},
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 6,
+      "date_missing": 4,
+      "trusted_count": 5,
+      "trusted_share": 0.5,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": 0.0,
+      "score_n": 10,
+      "score_avg": 0.7743,
+      "score_min": 0.753,
+      "score_max": 0.788,
+      "latency_ms": 725.3
+    },
+    "request_id": "edb32f40-1e01-40ba-8401-be117bb5709c",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Freshness=d30",
+    "params": {
+      "Freshness": "d30"
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 10,
+      "date_missing": 0,
+      "trusted_count": 0,
+      "trusted_share": 0.0,
+      "fresh30_count": 10,
+      "fresh30_share_of_dated": 1.0,
+      "score_n": 10,
+      "score_avg": 0.7578,
+      "score_min": 0.748,
+      "score_max": 0.769,
+      "latency_ms": 618.8
+    },
+    "request_id": "6100a0a7-2416-4a94-a8ee-dbaa9779ae51",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Freshness=m3",
+    "params": {
+      "Freshness": "m3"
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 10,
+      "date_missing": 0,
+      "trusted_count": 0,
+      "trusted_share": 0.0,
+      "fresh30_count": 5,
+      "fresh30_share_of_dated": 0.5,
+      "score_n": 10,
+      "score_avg": 0.7615,
+      "score_min": 0.748,
+      "score_max": 0.769,
+      "latency_ms": 614.4
+    },
+    "request_id": "9d21422c-f3f8-45f5-b47a-31c77dca496f",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Industry=acad",
+    "params": {
+      "Industry": "acad"
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 4,
+      "date_missing": 6,
+      "trusted_count": 4,
+      "trusted_share": 0.4,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": 0.0,
+      "score_n": 10,
+      "score_avg": 2.676,
+      "score_min": 2.5918,
+      "score_max": 2.7852,
+      "latency_ms": 533.4
+    },
+    "request_id": "4d478b88-a0c9-484e-acfd-75a649c70556",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Industry=gov",
+    "params": {
+      "Industry": "gov"
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 10,
+      "date_missing": 0,
+      "trusted_count": 1,
+      "trusted_share": 0.1,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": 0.0,
+      "score_n": 10,
+      "score_avg": 0.7928,
+      "score_min": 0.1797,
+      "score_max": 1.9199,
+      "latency_ms": 430.1
+    },
+    "request_id": "ff22d652-ab1f-4f8e-b8b8-05dbe4dcb3a8",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Cnt=50",
+    "params": {
+      "Cnt": 50
+    },
+    "error": null,
+    "metrics": {
+      "count": 50,
+      "date_coverage": 36,
+      "date_missing": 14,
+      "trusted_count": 8,
+      "trusted_share": 0.16,
+      "fresh30_count": 4,
+      "fresh30_share_of_dated": 0.111,
+      "score_n": 50,
+      "score_avg": 0.7719,
+      "score_min": 0.724,
+      "score_max": 0.788,
+      "latency_ms": 837.8
+    },
+    "request_id": "bceaf469-48f7-4f0c-a585-a911f0aeb707",
+    "version": "standard",
+    "raw_count": 50,
+    "bad_pages": 0
+  },
+  {
+    "label": "Site=docs.unity3d.com",
+    "params": {
+      "Site": "docs.unity3d.com"
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 0,
+      "date_missing": 10,
+      "trusted_count": 10,
+      "trusted_share": 1.0,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": null,
+      "score_n": 10,
+      "score_avg": 0.7505,
+      "score_min": 0.731,
+      "score_max": 0.772,
+      "latency_ms": 521.1
+    },
+    "request_id": "72f02d81-cadf-4db9-9350-0c4ba1f62cc4",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Mode=0 公开网页",
+    "params": {
+      "Mode": 0
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 6,
+      "date_missing": 4,
+      "trusted_count": 5,
+      "trusted_share": 0.5,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": 0.0,
+      "score_n": 10,
+      "score_avg": 0.7743,
+      "score_min": 0.753,
+      "score_max": 0.788,
+      "latency_ms": 288.4
+    },
+    "request_id": "c784efd5-3a24-4aa4-8f61-df0a4e61bbea",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  },
+  {
+    "label": "Mode=1 权威垂直",
+    "params": {
+      "Mode": 1
+    },
+    "error": null,
+    "metrics": {
+      "count": 0,
+      "date_coverage": 0,
+      "date_missing": 0,
+      "trusted_count": 0,
+      "trusted_share": 0.0,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": null,
+      "score_n": 0,
+      "score_avg": null,
+      "score_min": null,
+      "score_max": null,
+      "latency_ms": 502.8
+    },
+    "request_id": "e1a8baa8-57f2-4cad-b63b-a142c4a5c132",
+    "version": "standard",
+    "raw_count": 0,
+    "bad_pages": 0
+  },
+  {
+    "label": "Mode=2 混合",
+    "params": {
+      "Mode": 2
+    },
+    "error": null,
+    "metrics": {
+      "count": 10,
+      "date_coverage": 6,
+      "date_missing": 4,
+      "trusted_count": 5,
+      "trusted_share": 0.5,
+      "fresh30_count": 0,
+      "fresh30_share_of_dated": 0.0,
+      "score_n": 10,
+      "score_avg": 0.7743,
+      "score_min": 0.753,
+      "score_max": 0.788,
+      "latency_ms": 362.6
+    },
+    "request_id": "c825c012-5310-4da7-a21e-c72d440fb639",
+    "version": "standard",
+    "raw_count": 10,
+    "bad_pages": 0
+  }
+]
