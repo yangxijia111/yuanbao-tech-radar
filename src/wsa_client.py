@@ -132,16 +132,37 @@ def _post(url, payload, headers):
         data = json.loads(body)
     except json.JSONDecodeError:
         raise WSAError("响应不是合法 JSON (HTTP %s)：%s" % (status, body[:300]))
+    if not isinstance(data, dict):
+        raise WSAError("响应 JSON 顶层必须是对象 (HTTP %s)" % status)
+
     response = data.get("Response", data)
-    if isinstance(response, dict) and "Error" in response:
+    if not isinstance(response, dict):
+        raise WSAError("响应中的 Response 必须是对象 (HTTP %s)" % status)
+    if "Error" in response:
         err = response["Error"]
+        if not isinstance(err, dict):
+            raise WSAError("响应中的 Error 必须是对象 (HTTP %s)" % status)
         code = err.get("Code", "Unknown")
-        hint = ERROR_HINTS.get(code, err.get("Message", "未知错误"))
+        if not isinstance(code, str):
+            code = "Unknown"
+        message = err.get("Message", "未知错误")
+        if not isinstance(message, str):
+            message = "未知错误"
+        hint = ERROR_HINTS.get(code, message)
         raise WSAError(
             "[%s] %s" % (code, hint),
             code=code,
             request_id=response.get("RequestId"),
         )
+    if not 200 <= status < 300:
+        raise WSAError(
+            "HTTP 请求失败：状态码 %s" % status,
+            code=str(status),
+            request_id=response.get("RequestId"),
+        )
+    pages = response.get("Pages")
+    if pages is not None and not isinstance(pages, list):
+        raise WSAError("响应中的 Pages 必须是数组 (HTTP %s)" % status)
     return data, status, latency_ms
 
 
